@@ -1,0 +1,65 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgb(63, 94, 251);
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+.header {
+	&__content {
+		padding-top: 50px;
+	}
+	&__photo {
+		border-radius: 20px;
+		margin-bottom: 30px;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 64px;
+	}
+}
+
+.main {
+	&__info {
+		padding-top: 30px;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 50px;
+		margin-bottom: 50px;
+	}
+	&__subtitle {
+		font-weight: bold;
+		font-size: 32px;
+		margin-bottom: 35px;
+	}
+	&__text {
+		font-size: 18px;
+		margin-bottom: 35px;
+		line-height: 22px;
+	}
+	&__item {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	&__example {
+		margin-bottom: 35px;
+	}
+}
+
+.footer {
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	&__logo {
+		min-width: 65px;
+	}
+}
+
+span {
+	font-size: 20px;
+}
