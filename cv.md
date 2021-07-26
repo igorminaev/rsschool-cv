@@ -17,3 +17,10 @@
 var myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 ```
+## Work experience
+Courses freeCodeCamp and Udemy
+## Education
+I graduated from Homel State Technical Universiry in 2018. I was trained as an engineer in energetic. 
+## English level
+My English level is A2 but I improve it every day
+
